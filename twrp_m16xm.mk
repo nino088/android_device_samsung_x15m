@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := M16 5G
+PRODUCT_RELEASE_NAME := F15 5G
 
 # Inherit from m16xm device
 $(call inherit-product, device/samsung/m16xm/device.mk)
