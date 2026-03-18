@@ -22,5 +22,8 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 #TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Device version
+TW_DEVICE_VERSION := Nino_kelvin
+
 # Inherit from common tree
 include device/samsung/mt6835-common/BoardConfigCommon.mk
